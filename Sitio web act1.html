@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+
+<html lang="es" class"no-js">
+
+ <!-- Hola soy un comentario...  -->
+
+
+<head>
+	
+	<meta charset="UTF-8">
+	<meta content="kevin rodriguez" name="author"/>
+    <meta content="Portal de la fundacion rescatando sueños" name="description" />
+    <meta content="VENTAS, ECOMMERCE, ONLINE" name="keywords" />
+	<title>RESCATANDO SUEÑOS</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Merriweather|Indie+Flower|Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>	
+
+<Div id="contenidos">
+	<header>
+		<center><h1> FUNDACION RESCATANDO SUEÑOS </h1></center>
+		<h2><marquee behavior="alternate"> Curso Diseño de Sitios web - UNAD</marquee></h2>
+	</header>
+
+<nav>
+    <ul; class= "menu">
+        <li><a href="Sitio web act1.html" class= "menu">Principal</a></li>
+        <li><a href="Sitio web act2.html" class= "menu">Quienes somos</a></li>
+		<li><a href="Sitio web act3.html" class= "menu">Mision-Vision</a></li>
+		<li><a href= "Sitio web act4.html" class= "menu">Historias</a></li>
+		<li><a href= "Sitio web act5.html" class= "menu">Sueños</a></li>
+		<li><a href= "Sitio web act6.html" class= "menu">Mi Tierra</a></li>
+		<li><a href= "Sitio web act7.html" class= "menu">Inspiraciones</a></li>
+	</ul>	
+</nav>
+
+<section>
+     <article>
+     	<h2>Los niños colombianos que cumplirán su sueño de entrenar en el Camp Nou de Barcelona</h2>
+     	     	<figure>
+     		<img src="img/ninos.jpg" alt="niños seleccionados">
+     		<figcaption>
+				<span>
+				Para mas informacion <a href="http://www.elespectador.com/deportes/futbolinternacional/los-ninos-colombianos-cumpliran-su-sueno-de-entrenar-el-articulo-625500" class="menu">Haciendo realidad los sueños</a>
+				</span>
+			</figcaption>
+		</figure>
+
+		 <p>
+    	Foto: Cortesía Big Cola. </p> 
+<p>
+
+Tres niños colombianos viajarán a Barcelona pra vivir una práctica intensiva en la escuela del equipo azulgrana, gracias a una convocatoria de Big Cola, patrocinador del equipo en el que actúa el argentino Lionel Messi, en la que participaron más de 6.500 niños de todo el país.
+
+“Buscamos que los niños tuvieran unos parámetros altos de toma de decisión que les permita desarrollar un fútbol más dinámico. Así mismo, desde la escuela del Barcelona reconocemos la importancia de la formación en valores como un elemento fundamental para su vida profesional y personal, por lo que para nosotros es primordial combinar el talento con la parte humana”, aseguró Martín al término de la jornada. 
+
+   </p> 
+
+</article>
+
+</section>
+
+<aside>
+		<ul>
+		<li><a href="" class= "menu">Sitios de Interes</a></li>
+		<li><a href="http://www.google.com"class= "menu">Google</a></li>
+		<li><a href="http://www.unad.edu.co"class= "menu">Universidad UNAD</a></li>
+		<li><a href="http://www.fundacionpiesdescalzos.com/es/que-hacemos"class= "menu">Otras Fundaciones</a></li>
+		<li><a href="httP://www.mineducacion.gov.co"class= "menu">Min. Educacion</a></li>
+		<li><a href="http://www.efdeportes.com/efd196/las-actividades-recreativas-clasificacion.htm"class= "menu">Actividades</a></li>
+		<li><a href="http://www.turiscolombia.com/actividades.html"class= "menu">Turismo</a></li>
+	</ul>
+
+<title>Reloj con Javascript</title> 
+<script language="JavaScript"> 
+var m="A.M."; 
+function mueveReloj(){ 
+    momentoActual = new Date(); 
+    hora = momentoActual.getHours(); 
+    minuto = momentoActual.getMinutes(); 
+    segundo = momentoActual.getSeconds(); 
+
+if(hora==12) 
+{ 
+    m="M.D."; 
+} 
+if(hora==13) 
+{ 
+    hora="0"+1; 
+    m="P.M."; 
+} 
+if(hora==14) 
+{ 
+    hora="0"+2; 
+    m="P.M."; 
+} 
+if(hora==15) 
+{ 
+    hora="0"+3; 
+    m="P.M."; 
+} 
+if(hora==16) 
+{ 
+    hora="0"+4; 
+    m="P.M."; 
+} 
+if(hora==17) 
+{ 
+    hora="0"+5; 
+    m="P.M."; 
+} 
+if(hora==18) 
+{ 
+    hora="0"+6; 
+    m="P.M."; 
+} 
+if(hora==19) 
+{ 
+    hora="0"+7; 
+    m="P.M."; 
+} 
+if(hora==20) 
+{ 
+    hora="0"+8; 
+    m="P.M."; 
+} 
+if(hora==21) 
+{ 
+    hora="0"+9; 
+    M="P.M."; 
+} 
+if(hora==22) 
+{ 
+    hora=10; 
+    m="P.M."; 
+} 
+if(hora==23) 
+{ 
+    hora=11; 
+    m="P.M."; 
+} 
+if((hora==0)||(hora==24)) 
+{ 
+    hora=12; 
+    m="M.N"; 
+} 
+
+    str_segundo = new String (segundo) 
+    if (str_segundo.length == 1) 
+       segundo = "0" + segundo; 
+
+    str_minuto = new String (minuto) 
+    if (str_minuto.length == 1) 
+       minuto = "0" + minuto; 
+
+    str_hora = new String (hora) 
+    if (str_hora.length == 1) 
+       hora = "0" + hora; 
+
+    horaImprimible = hora + ":" + minuto + ":" + segundo+" "+m; 
+
+    cl.innerHTML = horaImprimible;//cl=clock=reloj 
+
+    setTimeout("mueveReloj()",1000); 
+} 
+</script> 
+</head> 
+
+<body onload="mueveReloj()"> 
+
+<table width="220" border="20" cellpadding="20" cellspacing="5" bordercolor="#FFFFFF" bgcolor="#000000"> 
+    <tr> 
+    <th width="150" scope="col"><font id="cl" color="#ffffff"><strong>0</strong></font></th> 
+    </tr> 
+</table> 
+</aside>
+
+<footer><h3>Copyright Todos los derechos reservados</h3></footer>
+</Div>
+
+<MARQUEE 
+style="FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: cursive; TEXT-DECORATION: blink; position: center; margin-left: 140px;" 
+width=970 height=16>... SITIO WEB CREADO Y ADMINISTRADO POR: KEVIN JHON E. RODRIGUEZ BARRERA / ESTUDIANTE DE LA UNAD
+ (jkevinrodriguez17@gmail.com&nbsp;) ...</MARQUEE></B></P>
+
+</body>
+
+
+<script src="js/modernizr.js"></script>   
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script>   
+
+
+</html>
